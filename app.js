@@ -22,9 +22,8 @@ if (nombreIngresado!=="") {
     } else {
     alert ("No ingresaste ningun nombre");
     document.getElementById("amigo").value = "";
-    
-    
 }
+
 limpiarCampo();
 
 return;
@@ -41,7 +40,7 @@ function nombresEnInterfaz() {
 
     asignarTextoElemento("#listaAmigos", listaHTML);
 }
-
+  
 
 //funcion sortear amigo y validaciones
 function sortearAmigo() {
